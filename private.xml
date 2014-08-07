@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<root>
+	<item>
+　　　　<name>custom</name>
+　　　　<identifier>custom</identifier>
+
+<autogen>
+  --KeyToKey--
+  KeyCode::F18,
+  KeyCode::SEMICOLON, ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L
+</autogen>
+<autogen>
+  --KeyToKey--
+  KeyCode::F19,
+  KeyCode::J, ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L
+</autogen>
+
+  </item>
+
+   <item>
+	          <name>Option R+jkli to Left/Down/Up/Right</name>
+	          <identifier>option.diamond_cursor_control_jkli</identifier>
+	          <autogen>--KeyToKey-- KeyCode::J, ModifierFlag::FN,
+												KeyCode::VK_MOUSEKEY_LEFT</autogen>
+	          <autogen>--KeyToKey-- KeyCode::K, ModifierFlag::FN,
+												KeyCode::VK_MOUSEKEY_DOWN</autogen>
+	          <autogen>--KeyToKey-- KeyCode::I, ModifierFlag::FN,
+												KeyCode::VK_MOUSEKEY_UP</autogen>
+	          <autogen>--KeyToKey-- KeyCode::L, ModifierFlag::FN,
+												KeyCode::VK_MOUSEKEY_RIGHT</autogen>
+
+<autogen>--KeyToKey-- KeyCode::J, ModifierFlag::FN,
+	KeyCode::VK_MOUSEKEY_DIAGONAL_NW</autogen>
+<autogen>--KeyToKey-- KeyCode::O, ModifierFlag::FN,
+	KeyCode::VK_MOUSEKEY_DIAGONAL_NE</autogen>
+<autogen>--KeyToKey-- KeyCode::M, ModifierFlag::FN,
+	KeyCode::VK_MOUSEKEY_DIAGONAL_SW</autogen>
+<autogen>--KeyToKey-- KeyCode::COMMA, ModifierFlag::FN,
+	KeyCode::VK_MOUSEKEY_DIAGONAL_SE</autogen>
+
+<autogen>
+	--KeyToKey--
+		KeyCode::F17,ModifierFlag::OPTION_L,
+		KeyCode::VK_MOUSEKEY_BUTTON_RIGHT</autogen>
+
+
+		<autogen>
+			--KeyToKey--
+			KeyCode::F17,
+			KeyCode::VK_MOUSEKEY_BUTTON_LEFT
+			</autogen>
+
+　　</item>
+</root>
