@@ -40,7 +40,7 @@
 
 <autogen>
 	--KeyToKey--
-		KeyCode::F17,ModifierFlag::OPTION_L,
+		KeyCode::F17,ModifierFlag::OPTION_R,
 		KeyCode::VK_MOUSEKEY_BUTTON_RIGHT</autogen>
 
 
