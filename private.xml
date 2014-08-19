@@ -6,12 +6,12 @@
 
 <autogen>
   --KeyToKey--
-  KeyCode::F18,
+  KeyCode::F17,
   KeyCode::SEMICOLON, ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L
 </autogen>
 <autogen>
   --KeyToKey--
-  KeyCode::F19,
+  KeyCode::F16,
   KeyCode::J, ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L
 </autogen>
 
@@ -38,17 +38,16 @@
 <autogen>--KeyToKey-- KeyCode::COMMA, ModifierFlag::FN,
 	KeyCode::VK_MOUSEKEY_DIAGONAL_SE</autogen>
 
-<autogen>
-	--KeyToKey--
-		KeyCode::F17,ModifierFlag::OPTION_R,
-		KeyCode::VK_MOUSEKEY_BUTTON_RIGHT</autogen>
-
 
 		<autogen>
 			--KeyToKey--
-			KeyCode::F17,
+			KeyCode::F18,
 			KeyCode::VK_MOUSEKEY_BUTTON_LEFT
 			</autogen>
-
+		<autogen>
+			--KeyToKey--
+			KeyCode::F19,
+			KeyCode::VK_MOUSEKEY_BUTTON_RIGHT
+			</autogen>
 　　</item>
 </root>
